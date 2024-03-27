@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  color: white
+}
+
+:root {
+  --primary-color: rgb(26, 26, 26);
+  --secondary-color: rgb(147, 78, 156);
+  --tertiary-color: rgb(0, 0, 0);
+}
+.hidden {
+  display: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.aboutShort {
+  margin-top: 5vh;
+}
+  .aboutTitle {
+    position: absolute;
+    position: sticky;
+    background-color: var(--secondary-color);
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+  }
+  .aboutTitleText {
+    position: absolute;
+    bottom: .5rem;
+  }
+  .AboutList {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 89%;
+    margin-bottom: 15rem;
+  }
+  li {
+    margin: 1rem;
+  
+  }
+
+.backButton {
+  position: fixed;
+  bottom: 0;
+    color: white;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    padding: .5rem;
+  width: 100%;
+  text-align: center;
+  border: none;
+}

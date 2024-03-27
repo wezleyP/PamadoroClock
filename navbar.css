@@ -1,0 +1,45 @@
+body, nav, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 6.4vh;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0; 
+  position: fixed; 
+  width: 100%; 
+  top: 0;
+  z-index: 10;
+}
+
+/* Logo styles */
+.logo {
+  float: left;
+  margin-left: 20px; 
+}
+
+/* Navigation links styles */
+.nav-links {
+  float: right; 
+  list-style: none;
+}
+
+/* Individual navigation link styles */
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px; 
+  margin-top: 3px;
+}
+
+/* Navigation link text styles */
+.nav-links li a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+/* Hover effect on navigation links */
+.nav-links li a:hover {
+  color: var(--secondary-color); 
+}
